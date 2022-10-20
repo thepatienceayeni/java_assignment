@@ -2,7 +2,7 @@
 public class TryingMethods {
 
  public static void main(String[] args) {
-    
+
  }   
 
  // It return a string of the day of the week based on the argument that was provided. 
@@ -41,4 +41,23 @@ public class TryingMethods {
     return dayOfTheWeek;
     
  }
-}
+
+
+public static void userLogin(String name) {
+    
+    if(name == "Sarah"){
+        System.out.println("Welcome to HR Department portal");
+    }
+    else  if(name == "Mike"){
+        System.out.println("Welcome to Finance Department portal");
+    }
+    else if(name == "Albert"){
+        System.out.println("Welcome to IT Department portal");
+    }
+    else{
+        System.out.println("Access Denied 🚫");
+
+    }
+     
+ 
+}}
