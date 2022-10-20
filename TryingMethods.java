@@ -3,7 +3,7 @@ public class TryingMethods {
 
  public static void main(String[] args) {
     sumLessThan1000();
-    System.out.println (sumLessThan1000());
+    System.out.println (sumOfEvenNumbers());
 
  }   
 
@@ -71,7 +71,15 @@ public static void userLogin(String name) {
         return sum;
     }
 
+    public static int sumOfEvenNumbers() {
+       
+        int sum = 0;
+        for (int y = 13; y < 103; y++) {
+           if (y % 2 == 0) {
+               sum += y;
+           }
+        }
+       return sum;
 
-
- 
+    }
 }
