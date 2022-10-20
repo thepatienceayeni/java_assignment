@@ -2,6 +2,8 @@
 public class TryingMethods {
 
  public static void main(String[] args) {
+    sumLessThan1000();
+    System.out.println (sumLessThan1000());
 
  }   
 
@@ -57,7 +59,19 @@ public static void userLogin(String name) {
     else{
         System.out.println("Access Denied 🚫");
 
-    }
+    }}
      
+    public static int sumLessThan1000(){
+        int sum = 0;
+        int value = 1;
+        while (value < 1000) {
+            sum += value;
+            value++;
+        }
+        return sum;
+    }
+
+
+
  
-}}
+}
